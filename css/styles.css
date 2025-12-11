@@ -66,9 +66,17 @@ details { text-align: center; }
 	clear: both;
 	display: table;
 }
-.intro {
-	font: Trade Gothic
-	font-family: Sans-Serif
-	font-weight: bold
-	color: #11B2F6
+#intro {
+	font-family: "Trade Gothic", Sans-Serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #11B2F6;
+	text-align: center;
+}
+#history {
+	font-family: "News Gothic";
+	font-weight: bold;
+	font-size: 24px;
+	color: #F9BA1c;
+	text-align: center
 }
