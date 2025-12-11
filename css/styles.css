@@ -10,6 +10,7 @@ text-align: center;
 li { text-align: center; }
 a { color: white; }
 a:hover { color: #8DB8FF }
+@font-face { url("https://robinhood314.github.io/BFQuetzales/fonts/NewsGothicBold.otf")format("opentype")}
 details { text-align: center; }
 .main-nav {
 	list-style-type: none;
