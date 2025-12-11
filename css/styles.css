@@ -10,9 +10,15 @@ text-align: center;
 li { text-align: center; }
 a { color: white; }
 a:hover { color: #8DB8FF }
-@font-face { 
-	url "https://robinhood314.github.io/BFQuetzales/fonts/NewsGothicBold.otf"
-	format "opentype"
+@font-face {
+	font-family: "News Gothic Bold";
+	src: url(../fonts/NewsGothicBold.otf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Trade Gothic Bold No. 2";
+	src: url(../fonts/Trade-Gothic-LT-Bold-2.tff);
+	font-weight: bold;
 }
 details { text-align: center; }
 .main-nav {
@@ -71,15 +77,13 @@ details { text-align: center; }
 	display: table;
 }
 #intro {
-	font-family: "Trade Gothic", Sans-Serif;
-	font-weight: bold;
+	font-family: "Trade Gothic Bold No. 2", Sans-Serif;
 	font-size: 18px;
 	color: #11B2F6;
 	text-align: center;
 }
 #history {
 	font-family: "News Gothic";
-	font-weight: bold;
 	font-size: 24px;
 	color: #F9BA1c;
 	text-align: center;
