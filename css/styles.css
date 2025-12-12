@@ -95,4 +95,7 @@ details { text-align: center; }
 	position: absolute;
 	content: ' ';
 }
-#schedule { display: block; }
+#schedule { 
+	display: block;
+	text-align: center;
+}
